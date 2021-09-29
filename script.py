@@ -1,7 +1,7 @@
 from PIL import Image
 from pytesseract import pytesseract
 import re
-import pandas as pd
+# import pandas as pd
 from urllib.request import Request, urlopen
 import urllib.request
 from bs4 import BeautifulSoup as soup
@@ -16,7 +16,7 @@ import ntpath
 
 
 file_location = "US 01032019 31052019.xls"
-sheet = pd.read_excel(file_location)
+# sheet = pd.read_excel(file_location)
 # print(sheet['Application Id'])
 
 parent_dir = "D:\Python\scrapping"
